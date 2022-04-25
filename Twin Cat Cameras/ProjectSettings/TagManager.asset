@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - MainCamera2
+  - killzone
+  - SpawnPoint1
+  - SpawnPoint2
+  - Player1
+  - Player2
   layers:
   - Default
   - TransparentFX
