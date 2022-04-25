@@ -5,7 +5,7 @@ using UnityEngine;
 public class FollowPlayer : MonoBehaviour
 {
     private float _minRotation = 12.0f;
-    private float rotationValue = 30.0f;
+    private float _rotationValue = 30.0f;
     private float _maxRotation = 90.0f;
 
 
@@ -25,6 +25,12 @@ public class FollowPlayer : MonoBehaviour
     {
         //_startPos = transform.position;
         _startRot = transform.rotation;
+    }
+
+    public void IncreaseRotation()
+    {
+        _minRotation += 6.0f;
+        _rotationValue += 10.0f;
     }
 
     public void Initiate()
@@ -58,7 +64,7 @@ public class FollowPlayer : MonoBehaviour
         else if (Input.GetButton(Button))
         {
            
-            if((rotationVar + (Time.deltaTime * rotationValue)) > _maxRotation)
+            if((rotationVar + (Time.deltaTime * _rotationValue)) > _maxRotation)
             {
 
                 return 0.0f;
@@ -74,7 +80,7 @@ public class FollowPlayer : MonoBehaviour
                 
             }
 
-            return rotationVar += Time.deltaTime * rotationValue;
+            return rotationVar += Time.deltaTime * _rotationValue;
         }
         else if (Input.GetButtonUp(Button))
         {

@@ -11,6 +11,8 @@ public class playerTwo_movement : MonoBehaviour
     private string _cameraTag = "MainCamera";
     [SerializeField] private Controls _controlObject = new Controls();
 
+    private Vector2 _slowTimer = new Vector2();
+
     [System.Serializable]
     private class Controls
     {
@@ -20,7 +22,16 @@ public class playerTwo_movement : MonoBehaviour
         public string _backButton;
     }
 
+    public void SpeedBoost()
+    {
+        _speed *= 2;
+    }
 
+    public void Slow(float slowTimer)
+    {
+        _slowTimer.x += slowTimer;
+        _slowTimer.y += slowTimer;
+    }
 
 
     void Start()
@@ -100,7 +111,22 @@ public class playerTwo_movement : MonoBehaviour
         _movementVector = GameObject.FindGameObjectWithTag(_cameraTag).transform.TransformDirection(_movementVector);
 
         _movementVector = Vector3.ClampMagnitude(_movementVector, 1.0f);
-        _movementVector *= _speed;
+
+        if (_slowTimer.x > 0)
+        {
+            _movementVector *= _speed * Mathf.Lerp(1.0f, 0.2f ,_slowTimer.x/_slowTimer.y);
+            _slowTimer.x -= Time.deltaTime;
+
+            if(_slowTimer.x < 0)
+            {
+                _slowTimer.x = 0.0f;
+                _slowTimer.y = 0.0f;
+            }
+        }
+        else
+        {
+            _movementVector *= _speed;
+        }
         _rb.AddForce(_movementVector);
     }
 }
