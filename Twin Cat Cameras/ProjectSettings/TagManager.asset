@@ -10,6 +10,12 @@ TagManager:
   - SpawnPoint2
   - Player1
   - Player2
+  - p1Win
+  - p2Win
+  - controls
+  - Menu
+  - play
+  - back
   layers:
   - Default
   - TransparentFX
