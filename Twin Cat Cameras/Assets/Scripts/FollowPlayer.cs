@@ -1,24 +1,32 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class FollowPlayer : MonoBehaviour
 {
+    private float _rot = 0.0f;
     private float _minRotation = 12.0f;
     private float _rotationValue = 30.0f;
     private float _maxRotation = 90.0f;
 
     private float _redRot = 0.0f;
-    private float _altRedRot = 0.0f;
-
     private float _blueRot = 0.0f;
-    private float _altBlueRot = 0.0f;
 
+    public FollowPlayer _otherPlayer;
 
     public Transform targetObject;
     //private Vector3 _startPos;
     private Quaternion _startRot;
     private AudioSource _as;
+
+    
+
+    public Image rightImage;
+    public List<Sprite> _rightSideSprites = new List<Sprite>();
+
+    public Image leftImage;
+    public List<Sprite> _leftSideSprites = new List<Sprite>();
 
     private void Start()
     {
@@ -36,7 +44,6 @@ public class FollowPlayer : MonoBehaviour
 
     public void Initiate()
     {
-        //transform.position = _startPos;
         transform.rotation = _startRot;
     }
     void LateUpdate()
@@ -49,10 +56,7 @@ public class FollowPlayer : MonoBehaviour
         // || Input.GetButtonUp("AltRed")
 
         _redRot = ButtonFunction("Red", _redRot, true);
-        _altRedRot = ButtonFunction("AltRed", _altRedRot, true);
-
         _blueRot = ButtonFunction("Blue", _blueRot, false);
-        _altBlueRot = ButtonFunction("AltBlue", _altBlueRot, false);
 
     }
 
@@ -89,6 +93,7 @@ public class FollowPlayer : MonoBehaviour
 
             _as.volume = Mathf.Lerp(0.5f, 1, rotationVar / _maxRotation);
             _as.pitch = Mathf.Lerp(1, 2, rotationVar / _maxRotation);
+            _rot += Time.deltaTime;
 
             return rotationVar += Time.deltaTime * _rotationValue;
         }
@@ -101,13 +106,29 @@ public class FollowPlayer : MonoBehaviour
             if (!pos)
             {
                 transform.Rotate(new Vector3(0.0f, -rotationVar, 0.0f));
+                _otherPlayer.RotationFromOtherPlayer(-_rot);
             }
             else
             {
                 transform.Rotate(new Vector3(0.0f, rotationVar, 0.0f));
+                _otherPlayer.RotationFromOtherPlayer(_rot);
             }
+
+            _rot = 0.0f;
         }
         return 0.0f;
+    }
+
+    public void RotationFromOtherPlayer(float rotationValue)
+    {
+        float rot = _minRotation + rotationValue * _rotationValue;
+
+        if(rotationValue < 0)
+        {
+            rot *= -1;
+        }
+
+        transform.Rotate(new Vector3(0.0f, rot, 0.0f));
     }
 
 }
