@@ -1,0 +1,708 @@
+fileFormatVersion: 2
+guid: 68a3d09aa75fa4183a27ae0a391b97d9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2252650935828964422
+    second: fill upp animation red_0
+  - first:
+      213: 7663764263714882116
+    second: fill upp animation red_1
+  - first:
+      213: -6343638535205910298
+    second: fill upp animation red_2
+  - first:
+      213: -3025447469084659517
+    second: fill upp animation red_3
+  - first:
+      213: 673510170076284909
+    second: fill upp animation red_4
+  - first:
+      213: -6622601906449935883
+    second: fill upp animation red_5
+  - first:
+      213: 1162470897865704600
+    second: fill upp animation red_6
+  - first:
+      213: -147194597619950142
+    second: fill upp animation red_7
+  - first:
+      213: 2915704277845227076
+    second: fill upp animation red_8
+  - first:
+      213: -1532364944348974864
+    second: fill upp animation red_9
+  - first:
+      213: -2183191604302535745
+    second: fill upp animation red_10
+  - first:
+      213: -4356798878239785673
+    second: fill upp animation red_11
+  - first:
+      213: 2181104807240138806
+    second: fill upp animation red_12
+  - first:
+      213: -8418068628839291299
+    second: fill upp animation red_13
+  - first:
+      213: 4772882228688547114
+    second: fill upp animation red_14
+  - first:
+      213: 6293898664867293139
+    second: fill upp animation red_15
+  - first:
+      213: 4736490487586171239
+    second: fill upp animation red_16
+  - first:
+      213: -2067681053908501782
+    second: fill upp animation red_17
+  - first:
+      213: 5263919977781763281
+    second: fill upp animation red_18
+  - first:
+      213: 6005556874780143027
+    second: fill upp animation red_19
+  - first:
+      213: 6034555625891742425
+    second: fill upp animation red_20
+  - first:
+      213: -1351386009314803536
+    second: fill upp animation red_21
+  - first:
+      213: -8200489397584731196
+    second: fill upp animation red_22
+  - first:
+      213: -7038605605356818097
+    second: fill upp animation red_23
+  - first:
+      213: 8336051070056044985
+    second: fill upp animation red_24
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fill upp animation red_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 200
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64469015716034f10800000000000000
+      internalID: 2252650935828964422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fill upp animation red_1
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1024
+        width: 200
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4420f055ef82b5a60800000000000000
+      internalID: 7663764263714882116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fill upp animation red_2
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1024
+        width: 200
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e8829dbc5ed6f7a0800000000000000
+      internalID: -6343638535205910298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fill upp animation red_3
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1024
+        width: 200
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c0ba9e6e837306d0800000000000000
+      internalID: -3025447469084659517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fill upp animation red_4
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1024
+        width: 200
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de782086ee9c85900800000000000000
+      internalID: 673510170076284909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fill upp animation red_5
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1024
+        width: 200
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f11a3577aac714a0800000000000000
+      internalID: -6622601906449935883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fill upp animation red_6
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1024
+        width: 200
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 894c3016f1de12010800000000000000
+      internalID: 1162470897865704600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fill upp animation red_7
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1024
+        width: 200
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cd91081b4f05fdf0800000000000000
+      internalID: -147194597619950142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fill upp animation red_8
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1024
+        width: 200
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4463d07b799a67820800000000000000
+      internalID: 2915704277845227076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fill upp animation red_9
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1024
+        width: 200
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f071d1b332fbbae0800000000000000
+      internalID: -1532364944348974864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fill upp animation red_10
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1024
+        width: 200
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb3aeec8dceb3b1e0800000000000000
+      internalID: -2183191604302535745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fill upp animation red_11
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 1024
+        width: 200
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73d72b8e08a8983c0800000000000000
+      internalID: -4356798878239785673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fill upp animation red_12
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1024
+        width: 200
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63002752447d44e10800000000000000
+      internalID: 2181104807240138806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fill upp animation red_13
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 1024
+        width: 200
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d56ac23de230d2b80800000000000000
+      internalID: -8418068628839291299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fill upp animation red_14
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 1024
+        width: 200
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2d61c3691fac3240800000000000000
+      internalID: 4772882228688547114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fill upp animation red_15
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1024
+        width: 200
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d768bb3d7b685750800000000000000
+      internalID: 6293898664867293139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fill upp animation red_16
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 1024
+        width: 200
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7692792e0056bb140800000000000000
+      internalID: 4736490487586171239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fill upp animation red_17
+      rect:
+        serializedVersion: 2
+        x: 3400
+        y: 1024
+        width: 200
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aea7af8590f1e43e0800000000000000
+      internalID: -2067681053908501782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fill upp animation red_18
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1024
+        width: 200
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dc93c194533d0940800000000000000
+      internalID: 5263919977781763281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fill upp animation red_19
+      rect:
+        serializedVersion: 2
+        x: 3800
+        y: 1024
+        width: 200
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bdeca7a826085350800000000000000
+      internalID: 6005556874780143027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fill upp animation red_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 200
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d2cc9a8e5c0fb350800000000000000
+      internalID: 6034555625891742425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fill upp animation red_21
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 200
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b0cb50a599ee3de0800000000000000
+      internalID: -1351386009314803536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fill upp animation red_22
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 200
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c3ea984752023e80800000000000000
+      internalID: -8200489397584731196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fill upp animation red_23
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 200
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4132aa7e79d15e90800000000000000
+      internalID: -7038605605356818097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fill upp animation red_24
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 200
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b9943c284a9fa370800000000000000
+      internalID: 8336051070056044985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 09a11a106bdac47bc85867a445357f58
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
