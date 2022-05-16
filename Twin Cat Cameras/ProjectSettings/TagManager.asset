@@ -16,6 +16,7 @@ TagManager:
   - Menu
   - play
   - back
+  - Music
   layers:
   - Default
   - TransparentFX

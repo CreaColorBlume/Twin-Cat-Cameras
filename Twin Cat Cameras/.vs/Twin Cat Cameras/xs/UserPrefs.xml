@@ -1,28 +1,19 @@
 ﻿<Properties StartupConfiguration="{4C3B33EA-88BA-E17E-3F4B-6E2B2648713C}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/FollowPlayer.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/GameManagement.cs">
     <Files>
-      <File FileName="Assets/Scripts/playerTwo_movement.cs" Line="61" Column="6" />
-      <File FileName="Assets/Scripts/Angelique/ChargeUps.cs" Line="25" Column="47" />
-      <File FileName="Assets/Scripts/FollowPlayer.cs" Line="1" Column="1" />
+      <File FileName="Assets/playerTwo_movement.cs" Line="122" Column="36" />
+      <File FileName="Assets/FollowPlayer.cs" Line="1" Column="1" />
+      <File FileName="../../../../CollabProject/Assets/Scripts/Projectile.cs" />
+      <File FileName="Assets/Killzone.cs" />
+      <File FileName="Assets/PickUp.cs" />
+      <File FileName="Assets/Teleporter.cs" Line="15" Column="11" />
+      <File FileName="Assets/Buttons.cs" Line="46" Column="32" />
+      <File FileName="Assets/GameManagement.cs" Line="7" Column="5" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="Twin Cat Cameras" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="Scripts" expanded="True">
-                <Node name="Angelique" expanded="True" />
-                <Node name="FollowPlayer.cs" selected="True" />
-              </Node>
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="74105c1f-3d2f-447e-884a-3e296f7ca4d0" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="6bef83fb-0e76-47b0-a627-ef4fb317c33e" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
