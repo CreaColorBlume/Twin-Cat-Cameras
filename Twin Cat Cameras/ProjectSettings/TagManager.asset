@@ -17,6 +17,8 @@ TagManager:
   - play
   - back
   - Music
+  - p1UI
+  - p2UI
   layers:
   - Default
   - TransparentFX

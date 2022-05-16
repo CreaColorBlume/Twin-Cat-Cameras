@@ -10,8 +10,8 @@ public class FollowPlayer : MonoBehaviour
     private float _rotationValue = 30.0f;
     private float _maxRotation = 90.0f;
 
-    private float _redRot = 0.0f;
-    private float _blueRot = 0.0f;
+    private float _leftRot = 0.0f;
+    private float _rightRot = 0.0f;
 
     public FollowPlayer _otherPlayer;
 
@@ -34,6 +34,16 @@ public class FollowPlayer : MonoBehaviour
         _startRot = transform.rotation;
         _as = GetComponent<AudioSource>();
 
+        if(targetObject.CompareTag("Player1"))
+        {
+            leftImage = GameObject.FindGameObjectWithTag("p1UI").GetComponent<PlayerUIHandler>().left;
+            rightImage = GameObject.FindGameObjectWithTag("p1UI").GetComponent<PlayerUIHandler>().right;
+        }
+        else if (targetObject.CompareTag("Player2"))
+        {
+            leftImage = GameObject.FindGameObjectWithTag("p2UI").GetComponent<PlayerUIHandler>().left;
+            rightImage = GameObject.FindGameObjectWithTag("p2UI").GetComponent<PlayerUIHandler>().right;
+        }
     }
 
     public void IncreaseRotation()
@@ -55,9 +65,20 @@ public class FollowPlayer : MonoBehaviour
     {
         // || Input.GetButtonUp("AltRed")
 
-        _redRot = ButtonFunction("Red", _redRot, true);
-        _blueRot = ButtonFunction("Blue", _blueRot, false);
+        _leftRot = ButtonFunction("Red", _leftRot, true);
+        _rightRot = ButtonFunction("Blue", _rightRot, false);
+        UpdateGraphics();
+    }
 
+    private void UpdateGraphics()
+    {
+
+        int temp = Mathf.FloorToInt(Mathf.Lerp(0, _leftSideSprites.Count, _leftRot / _maxRotation));
+        leftImage.sprite = _leftSideSprites[temp];
+        
+        temp = Mathf.FloorToInt(Mathf.Lerp(0, _rightSideSprites.Count, _rightRot / _maxRotation));
+        rightImage.sprite = _rightSideSprites[temp];
+        
     }
 
     private float ButtonFunction(string Button, float rotationVar, bool pos)

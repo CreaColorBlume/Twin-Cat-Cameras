@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class playerTwo_movement : MonoBehaviour
 {
@@ -44,6 +45,7 @@ public class playerTwo_movement : MonoBehaviour
             _controlObject._leftButton = "Left";
             _controlObject._forwardButton = "Up";
             _controlObject._backButton = "Down";
+
         }
         else
         {
@@ -52,6 +54,7 @@ public class playerTwo_movement : MonoBehaviour
             _controlObject._leftButton = "AltLeft";
             _controlObject._forwardButton = "AltUp";
             _controlObject._backButton = "AltDown";
+
         }
 
     }
