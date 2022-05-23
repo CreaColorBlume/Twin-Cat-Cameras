@@ -57,5 +57,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae2c5389509ec4281a6a16b15d88d9f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _SpawnPoint1: {fileID: 0}
+  _SpawnPoint1: {fileID: 8710314945088530714, guid: 0476567672ad94554838dd2a2be0189a, type: 3}
   _SpawnPoint2: {fileID: 7233688041265773585, guid: 1df20835f00104760870818a04eefc96, type: 3}

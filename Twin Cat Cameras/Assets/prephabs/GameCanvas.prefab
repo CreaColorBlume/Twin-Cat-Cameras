@@ -84,9 +84,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 206975876}
+  - component: {fileID: 7836622085370342077}
   m_Layer: 5
   m_Name: P2UI
-  m_TagString: Untagged
+  m_TagString: p2UI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -112,6 +113,20 @@ RectTransform:
   m_AnchoredPosition: {x: 200, y: 0}
   m_SizeDelta: {x: -400, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &7836622085370342077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 206975875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad19a1d0a2ad5445e9cee63235f7e55d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  left: {fileID: 666901930}
+  right: {fileID: 793489741}
 --- !u!1 &479791679
 GameObject:
   m_ObjectHideFlags: 0
@@ -121,9 +136,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 479791680}
+  - component: {fileID: 5407815062139353881}
   m_Layer: 5
   m_Name: P1UI
-  m_TagString: Untagged
+  m_TagString: p1UI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -149,6 +165,20 @@ RectTransform:
   m_AnchoredPosition: {x: -200, y: 0}
   m_SizeDelta: {x: -400, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &5407815062139353881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 479791679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad19a1d0a2ad5445e9cee63235f7e55d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  left: {fileID: 1757699674}
+  right: {fileID: 61279157}
 --- !u!1 &515123104
 GameObject:
   m_ObjectHideFlags: 0

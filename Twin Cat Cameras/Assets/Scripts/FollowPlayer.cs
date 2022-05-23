@@ -11,7 +11,10 @@ public class FollowPlayer : MonoBehaviour
     private float _maxRotation = 90.0f;
 
     private float _leftRot = 0.0f;
+    private float _altLeftRot = 0.0f;
+
     private float _rightRot = 0.0f;
+    private float _altRightRot = 0.0f;
 
     public FollowPlayer _otherPlayer;
 
@@ -66,7 +69,10 @@ public class FollowPlayer : MonoBehaviour
         // || Input.GetButtonUp("AltRed")
 
         _leftRot = ButtonFunction("Red", _leftRot, true);
+        _altLeftRot = ButtonFunction("AltRed", _altLeftRot, true);
+
         _rightRot = ButtonFunction("Blue", _rightRot, false);
+        _altRightRot = ButtonFunction("AltBlue", _altRightRot, false);
         UpdateGraphics();
     }
 
@@ -74,9 +80,11 @@ public class FollowPlayer : MonoBehaviour
     {
 
         int temp = Mathf.FloorToInt(Mathf.Lerp(0, _leftSideSprites.Count, _leftRot / _maxRotation));
+        temp = Mathf.FloorToInt(Mathf.Lerp(0, _leftSideSprites.Count, _altLeftRot / _maxRotation));
         leftImage.sprite = _leftSideSprites[temp];
         
         temp = Mathf.FloorToInt(Mathf.Lerp(0, _rightSideSprites.Count, _rightRot / _maxRotation));
+        temp = Mathf.FloorToInt(Mathf.Lerp(0, _rightSideSprites.Count, _altRightRot / _maxRotation));
         rightImage.sprite = _rightSideSprites[temp];
         
     }
