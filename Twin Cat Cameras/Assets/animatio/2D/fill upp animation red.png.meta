@@ -99,6 +99,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -700,6 +701,32 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      fill upp animation red_20: 6034555625891742425
+      fill upp animation red_21: -1351386009314803536
+      fill upp animation red_22: -8200489397584731196
+      fill upp animation red_0: 2252650935828964422
+      fill upp animation red_16: 4736490487586171239
+      fill upp animation red_1: 7663764263714882116
+      fill upp animation red_24: 8336051070056044985
+      fill upp animation red_6: 1162470897865704600
+      fill upp animation red_17: -2067681053908501782
+      fill upp animation red_15: 6293898664867293139
+      fill upp animation red_5: -6622601906449935883
+      fill upp animation red_19: 6005556874780143027
+      fill upp animation red_14: 4772882228688547114
+      fill upp animation red_9: -1532364944348974864
+      fill upp animation red_23: -7038605605356818097
+      fill upp animation red_7: -147194597619950142
+      fill upp animation red_18: 5263919977781763281
+      fill upp animation red_13: -8418068628839291299
+      fill upp animation red_8: 2915704277845227076
+      fill upp animation red_11: -4356798878239785673
+      fill upp animation red_3: -3025447469084659517
+      fill upp animation red_2: -6343638535205910298
+      fill upp animation red_10: -2183191604302535745
+      fill upp animation red_4: 673510170076284909
+      fill upp animation red_12: 2181104807240138806
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

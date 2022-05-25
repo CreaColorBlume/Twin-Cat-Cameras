@@ -99,6 +99,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -700,6 +701,32 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      fill upp animation 200x1024_21: 6558119823340221570
+      fill upp animation 200x1024_1: 6484014800777470604
+      fill upp animation 200x1024_2: 2192280814004986242
+      fill upp animation 200x1024_6: 165452563423766935
+      fill upp animation 200x1024_19: -5816955668687736819
+      fill upp animation 200x1024_9: -644389582654872183
+      fill upp animation 200x1024_5: 2791829956939374872
+      fill upp animation 200x1024_15: 7158732699990027408
+      fill upp animation 200x1024_8: 1948818775553407893
+      fill upp animation 200x1024_20: -2023949079024607366
+      fill upp animation 200x1024_22: -1071895308025038458
+      fill upp animation 200x1024_23: 3355631798059211617
+      fill upp animation 200x1024_24: 2787859254250502009
+      fill upp animation 200x1024_16: 6299160917452013203
+      fill upp animation 200x1024_17: -62809413817869800
+      fill upp animation 200x1024_3: -3911611624961545373
+      fill upp animation 200x1024_10: 9092252103785971452
+      fill upp animation 200x1024_7: -620233327887864401
+      fill upp animation 200x1024_0: 9023611755538984732
+      fill upp animation 200x1024_12: -8168261188612790842
+      fill upp animation 200x1024_14: -6515255036334126199
+      fill upp animation 200x1024_11: -8735442821371235288
+      fill upp animation 200x1024_4: 1554402611284111872
+      fill upp animation 200x1024_13: -6058745822558145732
+      fill upp animation 200x1024_18: 2453509615341429757
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
